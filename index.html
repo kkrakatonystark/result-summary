@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!-- index css -->
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class = "fluid-container">
+    <div class="row">
+      <div class="col col-md-6 score-background">
+        <p style="color: hsl(241, 100%, 89%)">Your Result</p>
+        
+        <div class="score-background-circle">
+          <div>
+            <h1 style="color: #fff; font-weight: 800; font-size: 2.75rem;">76</h1> 
+            <p style="color: hsl(241, 100%, 89%)">of 100</p>
+          </div>        
+        </div>
+        
+
+        <h3 style="color: #fff; font-weight: 700; margin-top: 6%;">Great</h3> 
+        <div class="comment-box">
+          <p style="color: hsl(241, 100%, 89%); margin-top: 2%; font-size: 14px; font-weight: 500; text-align: center;">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+
+      <div class="col col-md-6">
+        <p class="summary" style="font-weight: 700;">Summary</p>
+
+        <div class = "summary-features-css" style="background-color: rgb(255, 244, 244)">
+          <img src="/assets/images/icon-reaction.svg" alt="...">
+          <span style="color: hsl(0, 100%, 67%); margin: 0 10% 0 2%;">Reaction</span>
+          <div style="display: inline-block; justify-content: end;">
+            <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 700; font-size: 14px; display: inline;" >80</span>
+            <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 500; font-size: 14px; color: hsl(240, 2%, 67%)"> / 100</span>
+          </div>
+        </div>
+
+        <div class = "summary-features-css" style="background-color: rgb(255, 250, 240)">
+          <img src="/assets/images/icon-memory.svg" alt="...">
+          <span style="color: hsl(39, 100%, 56%); margin: 0 10% 0 2%;">Memory</span>
+          <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 700; font-size: 14px; display: inline;" >92</span>
+          <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 500; font-size: 14px; color: hsl(240, 2%, 67%)"> / 100</span>
+        </div>
+
+        <div class = "summary-features-css" style="background-color: rgb(242, 255, 252)">
+          <img src="/assets/images/icon-verbal.svg" alt="...">
+          <span style="color: hsl(166, 100%, 37%); margin: 0 10% 0 2%;">Verbal</span>
+          <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 700; font-size: 14px; display: inline;" >61</span>
+          <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 500; font-size: 14px; color: hsl(240, 2%, 67%)"> / 100</span>
+        </div>
+
+        <div class = "summary-features-css" style="background-color: rgb(244, 245, 255)">
+          <img src="/assets/images/icon-visual.svg" alt="...">
+          <span style="color: hsl(234, 85%, 45%); margin: 0 10% 0 2%;">Visual</span>
+          <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 700; font-size: 14px; display: inline;" >72</span>
+          <span style="font-family: 'Hanken Grotesk', sans-serif; font-weight: 500; font-size: 14px; color: hsl(240, 2%, 67%);"> / 100</span>
+        </div>
+
+        <button class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <!-- bootstrap js module  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
